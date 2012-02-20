@@ -1,1 +1,2 @@
-This is a multi-threaded web-proxy that connect a server with a client.
+This is a web proxy that passes client's request to server and passes server's response back to client. It is able to 
+handle multiple requests in multi-threads.
