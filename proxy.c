@@ -1,14 +1,3 @@
-/* Web proxy
- * This is a web proxy that passes client's request
- * to server and passes server's response back to 
- * client. It is able to handle multiple requests in
- * parallel and has a cache. In order to prevent 
- * race conditions, this web proxy ensures that when
- * a thread is reading the cache, no other threads are
- * modifying it; if a thread is writing to the cache,
- * no other threads are reading or writing to it. */
-
-
 #define _GNU_SOURCE
 
 #include <stdio.h>
